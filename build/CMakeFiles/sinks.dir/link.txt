@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsinks.a CMakeFiles/sinks.dir/src/sinks.cpp.o
-/usr/bin/ranlib libsinks.a

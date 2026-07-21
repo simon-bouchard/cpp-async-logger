@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        sanitizer: [asan, tsan]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure (ASan + UBSan)
+        if: matrix.sanitizer == 'asan'
+        run: cmake -B build -DENABLE_ASAN=ON
+
+      - name: Configure (TSan)
+        if: matrix.sanitizer == 'tsan'
+        run: cmake -B build -DENABLE_TSAN=ON
+
+      - name: Build
+        run: cmake --build build -j
+
+      - name: Test
+        working-directory: build
+        run: ctest --output-on-failure
