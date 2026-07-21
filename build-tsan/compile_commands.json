@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan",
+  "command": "/usr/bin/c++  -I/home/simon/documents/exercises/cpp/cmake/logger/include -std=gnu++23 -o CMakeFiles/logger.dir/src/logger.cpp.o -c /home/simon/documents/exercises/cpp/cmake/logger/src/logger.cpp",
+  "file": "/home/simon/documents/exercises/cpp/cmake/logger/src/logger.cpp"
+},
+{
+  "directory": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan",
+  "command": "/usr/bin/c++  -I/home/simon/documents/exercises/cpp/cmake/logger/include -std=gnu++23 -o CMakeFiles/logger_demo.dir/main.cpp.o -c /home/simon/documents/exercises/cpp/cmake/logger/main.cpp",
+  "file": "/home/simon/documents/exercises/cpp/cmake/logger/main.cpp"
+},
+{
+  "directory": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan",
+  "command": "/usr/bin/c++  -I/home/simon/documents/exercises/cpp/cmake/logger/include -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/include -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest -std=gnu++23 -o CMakeFiles/unit_tests.dir/tests/logger_test.cpp.o -c /home/simon/documents/exercises/cpp/cmake/logger/tests/logger_test.cpp",
+  "file": "/home/simon/documents/exercises/cpp/cmake/logger/tests/logger_test.cpp"
+},
+{
+  "directory": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock/include -I/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/include -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++23 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock/include -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/include -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++23 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/include -I/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++23 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/include -isystem /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++23 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/simon/documents/exercises/cpp/cmake/logger/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc"
+}
+]

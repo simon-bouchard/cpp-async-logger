@@ -1,0 +1,3 @@
+[INFO] Hello
+[INFO] world!
+[INFO] This is the logger
