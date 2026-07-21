@@ -1,5 +1,7 @@
 # Async Batched Logger
 
+![CI](https://github.com/simon-bouchard/cpp-async-logger/actions/workflows/ci.yml/badge.svg)
+
 A small systems-level C++23 project: a non-copyable, non-movable, thread-safe logger with batched/timed async flushing and pluggable output sinks. Built as a hands-on project to consolidate modern C++ fundamentals — RAII, PIMPL, concurrency, and `std::expected`-based error handling — alongside ML/Python work.
 
 Not intended as a production logging library (see [spdlog](https://github.com/gabime/spdlog) for that). The goal was depth on a small surface area: get the concurrency, ownership, and testing right on something simple enough to reason about end to end.
