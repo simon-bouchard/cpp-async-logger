@@ -33,7 +33,17 @@ target_link_libraries(unit_tests PRIVATE logger GTest::gtest_main)
 include(GoogleTest)
 gtest_discover_tests(unit_tests)
 
+option(ENABLE_ASAN "Build with AddressSanitizer + UndefinedBehaviorSanitizer" OFF)
 option(ENABLE_TSAN "Build with ThreadSanitizer" OFF)
+
+if(ENABLE_ASAN AND ENABLE_TSAN)
+  message(FATAL_ERROR "ENABLE_ASAN and ENABLE_TSAN cannot be combined in the same binary")
+endif()
+
+if(ENABLE_ASAN)
+  add_compile_options(-fsanitize=address,undefined -g)
+  add_link_options(-fsanitize=address,undefined)
+endif()
 
 if(ENABLE_TSAN)
   add_compile_options(-fsanitize=thread -g)
